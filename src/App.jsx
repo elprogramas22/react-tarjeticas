@@ -1,5 +1,5 @@
 import Saludo from "./components/Saludo.jsx"
-import Tarjeta from "./components/tarjeta.jsx"
+import Tarjeta from "./components/Tarjeta.jsx"
 import durisimo from "./assets/durisimo.jpeg"
 import ardilla from "./assets/ardilla.webp"
 import wolverine from "./assets/wolverine.jpeg"
