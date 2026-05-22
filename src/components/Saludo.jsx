@@ -1,9 +1,10 @@
 
 function Saludo({Nombre, Ciudad}) {
-  return (<>
-    <h1>Saludos {Nombre}! </h1>
-    <h2>vives en {Ciudad} </h2>
-  </>
+  return (
+    <div className="saludo">
+      <h1 className="saludo-title">Saludos, {Nombre}!</h1>
+      <h2 className="saludo-sub">Vives en {Ciudad}</h2>
+    </div>
   )
 }
 

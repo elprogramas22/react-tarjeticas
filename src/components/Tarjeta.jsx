@@ -1,12 +1,15 @@
 
 function Tarjeta({imagen, nombre, rol}) {
-  return (<>
-  <div className="tarjetica">
-    <h2>{nombre}</h2>
-    <img src={imagen} alt={nombre} />
-    <p>{rol}</p>
-  </div>
-  </>  
+  return (
+    <article className="tarjetica">
+      <div className="thumb">
+        <img className="tarjeta-img" src={imagen} alt={nombre} />
+      </div>
+      <div className="tarjeta-body">
+        <h3 className="tarjeta-title">{nombre}</h3>
+        <p className="tarjeta-desc">{rol}</p>
+      </div>
+    </article>
   )
 }
 
